@@ -1,0 +1,87 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #032152;
+    font-family: 'indie flower', cursive;
+    color: #fff;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.player-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.dice {
+    text-align: center;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+h1 {
+    margin: 30px 0;
+    font-family: 'lobster', cursive;
+    text-shadow: 4px 0 #232931;
+    font-size: 8rem;
+    color: #4ecca3;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 15px;
+    color: #4ecca3;
+}
+
+img {
+    width: 80%;
+    max-width: 200px;
+}
+
+.btn-container {
+    margin-top: 20px;
+}
+
+#btnJogar {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btnJogar:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #fff;
+
+}
+ #message-show {
+    opacity: 1;
+ }
+
+
+footer {
+    margin-top: 5%;
+    text-align: center;
+    color: #eeee;
+}
